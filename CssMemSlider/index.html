@@ -9,22 +9,36 @@
 	<title>CssMemSlider</title>
 </head>
 <body>
-	<div class="wrapper">
-		<div class="screen">
-			<div class="screen__slider slider-screen">
-				<div class="slider-screen__item slider-screen__item--one"></div>
-				<div class="slider-screen__item slider-screen__item--two"></div>
-				<div class="slider-screen__item slider-screen__item--three"></div>
-				<div class="slider-screen__item slider-screen__item--four"></div>
+	<div class="slider">
+		<input type="radio" name="switch" id="btn1" checked />
+		<input type="radio" name="switch" id="btn2" />
+		<input type="radio" name="switch" id="btn3" />
+		<input type="radio" name="switch" id="btn4" />
+	
+		<div class="slider-inner">
+			<div class="slides">
+				<img src="./assets/images/fixing_the_bug.jpg" alt="fixing_the_bug" />
+				<img src="./assets/images/music.jpg" alt="music" />
+				<img src="./assets/images/programmer.jpg" alt="programmer" />
+				<img src="./assets/images/usb.jpg" alt="usb" />
 			</div>
-			<div class="screen__bottom">
-				<div class="screen__controls">
-					<input type="radio" name="" id="input--1">
-					<input type="radio" name="" id="input--2">
-					<input type="radio" name="" id="input--3">
-					<input type="radio" name="" id="input--4">
+		</div>
+	
+		<div class="control-slider">
+			<div class="wrapper-slider-text">
+				<div class="slider-text">
+					<div class="item-text">text 1</div>
+					<div class="item-text">text 2</div>
+					<div class="item-text">text 3</div>
+					<div class="item-text">text 4</div>
 				</div>
-				<div class="screen__text"></div>
+			</div>
+	
+			<div class="switch">
+				<div class="hover-label"><label for="btn1"></label></div>
+				<div class="hover-label"><label for="btn2"></label></div>
+				<div class="hover-label"><label for="btn3"></label></div>
+				<div class="hover-label"><label for="btn4"></label></div>
 			</div>
 		</div>
 	</div>
